@@ -1,0 +1,36 @@
+.info {
+    position: relative;
+    font-size: 18px;
+
+    // Здесь стили только для текста, если вдруг иконки уберут
+
+    &--map,
+    &--tel {
+        padding-left: 35px;
+
+        &::before,
+        &::before {
+
+            content: "";
+
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 21px;
+            height: 21px;
+
+            background-repeat: no-repeat;
+
+        }
+    }
+
+    //Весь бефор нужен только, когда есть модификаторы тел и мэп. Поэтому не просто ::бефор, а --тел, мэп:: бефор. Чтобы он не работал просто так, когда нет никаких модификаторов.
+
+    &--map::before {
+        background-image: url('./../img/header/map.svg');
+    }
+
+    &--tel::before {
+        background-image: url('./../img/header/phone.svg');
+    }
+}
