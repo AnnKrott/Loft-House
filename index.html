@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header class="header none">
+  <header class="header none1">
     <div class="header__top">
       <div class="container">
         <div class="header__top-row">
@@ -52,7 +52,7 @@
 
   <main>
 
-    <section class="benefits none">
+    <section class="benefits none1">
       <h2 class="visually-hidden">Преимущества ЖК</h2>
 
       <div class="container container--sm">
@@ -77,7 +77,7 @@
       </div>
     </section>
 
-    <section class="apartments none">
+    <section class="apartments none1">
       <div class="container">
         <div class="apartments__title">
 
@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <section class="cta">
+    <section class="cta none1">
       <div class="container">
         <div class="cta__title">
           <h2 class="title-2">Хотите посмотреть?</h2>
@@ -122,23 +122,113 @@
             Комплекс предлагает своим жильцам квартиры площадью от 40 до 170 кв. м. В здании будет три секции, в которых
             разместится всего 56 квартир.
           </div>
-          <div class="cta__form">
-            <form action="" class="form">
-              <input type="text" class="form__input" placeholder="Ваше имя" autocomplete>
-              <input type="tel" class="form__input" placeholder="Ваш телефон" autocomplete>
 
-              <p class="form__privacy">*Мы никому не передаем ваши данные. <br> И не сохраняем ваш номер в базу.
-              </p>
+          <form action="" class="form cta__form">
+            <input type="text" class="form__input" placeholder="Ваше имя" autocomplete>
+            <input type="tel" class="form__input" placeholder="Ваш телефон" autocomplete>
 
-              <button type="submit" class="form__btn">Посмотреть район</button>
-            </form>
-          </div>
+            <p class="form__privacy">*Мы никому не передаем ваши данные. <br> И не сохраняем ваш номер в базу.
+            </p>
+
+            <button type="submit" class="form__btn">Посмотреть район</button>
+          </form>
         </div>
+      </div>
+
+    </section>
+
+    <section class="video none1">
+      <div class="container">
+        <h2 class="visually-hidden">Видео про ЖК "Loft House"</h2>
+        <a class="video__link" href="http://youtube.com/watch?v=bhJNL9JUsnY">
+          <img src="./img/video/play-button.svg" alt="" class="video__icon">
+          <img src="./img/video/cover.jpg" alt="" class="video__img">
+        </a>
+      </div>
+    </section>
+
+    <section class="section-map none1">
+      <div class="container">
+        <div class="section-map__title">
+          <h2 class="title-2">Район на карте</h2>
+        </div>
+        <div class="section-map__map">
+          <div class="map" id="map"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback none1">
+      <div class="container">
+        <div class="feedback__tiile">
+          <h2 class="title-2">Есть вопросы?</h2>
+        </div>
+        <form class="feedback__form form">
+
+          <p class="form__privacy">
+            *Мы никому не передаем ваши данные.
+            <br> И не сохраняем ваш номер в базу.
+          </p>
+
+          <input type="text" class="form__input" placeholder="Ваше имя" autocomplete>
+          <input type="tel" class="form__input" placeholder="Ваш телефон" autocomplete>
+
+
+          <button type="submit" class="form__btn">Посмотреть район</button>
+
+        </form>
       </div>
     </section>
 
   </main>
 
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__logo">
+          <a href="">
+            <img src="./img/logo.svg" alt="Loft House" />
+          </a>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__nav-list">
+              <li><a href="">О комплексе</a></li>
+              <li><a href="">Район</a></li>
+              <li><a href="">Каталог квартир</a></li>
+              <li><a href="">Ипотека</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__nav-list">
+              <li><a href="">Поселение и переезд</a></li>
+              <li><a href="">Сервисные услуги</a></li>
+              <li><a href="">Экологическая устойчивость</a></li>
+              <li><a href="">Инвестиционные возможности</a></li>
+              <li><a href="">Программа лояльности</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__address">
+          <ul class="footer__nav-list">
+            <li>Адрес: Наб. реки Фонтанки 10-15</li>
+            <li>Телефон: <a href="tel: +78121234567">8 (812) 123-45-67</a></li>
+            <li>Отдел продаж: 10:00 - 20:00</li>
+            <li>E-mail: <a class="link-bold" href="mailto: vip@lofthouse.ru">vip@lofthouse.ru</a></li>
+          </ul>
+          <ul class="footer__socials">
+            <li><a href="#!"><img src="./img/footer/youtube.svg" alt=""></a></li>
+            <li><a href="#!"><img src="./img/footer/vk.svg" alt=""></a></li>
+            <li><a href="#!"><img src="./img/footer/facebook.svg" alt=""></a></li>
+            <li><a href="#!"><img src="./img/footer/instagram.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 

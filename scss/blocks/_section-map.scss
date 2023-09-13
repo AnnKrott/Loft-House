@@ -1,29 +1,26 @@
-.apartments {
+.section-map {
+    padding: 180px 0;
     position: relative;
 
     &::before {
-        content: "III";
+        content: "V";
 
         position: absolute;
         right: calc(50% + 555px);
         top: 0;
         font-family: $font-accent;
         font-size: 400px;
-        line-height: 1;
+        line-height: 1.9;
         opacity: 0.02;
         transform: translate(50%, 0);
     }
 }
 
-
-.apartments__title {
+.section-map__title {
     margin-bottom: 88px;
 }
 
-
-.apartments__cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    //grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    gap: 30px;
+.map {
+    height: 358px;
+    background: grey;
 }
