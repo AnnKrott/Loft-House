@@ -6,11 +6,15 @@
 
 @import './base/base';
 
+@import './base/mixins';
+
 // Blocks 
 
 @import './blocks/header';
 
 @import './blocks/nav';
+
+@import './blocks/nav-icon';
 
 @import './blocks/info';
 
