@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 35px 30px;
+
+    @include mediaTablet {
+        grid-template-columns: 1fr;
+    }
 }
 
 .form__input {
@@ -27,6 +31,12 @@
     color: $privacy;
     text-align: center;
     line-height: 1.23;
+
+    @include mediaTablet {
+        &--bottom {
+            grid-row: 4/5;
+        }     
+    }
 }
 
 .form__btn {

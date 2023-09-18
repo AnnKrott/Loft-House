@@ -60,9 +60,17 @@ a {
     font-family: $font-accent;
     font-weight: 700;
     color: $accent;
+
+    @include mediaTablet {
+        font-size: 28px;
+    }
 }
 
 .link-bold {
     color: $accent;
     font-weight: 700;
+}
+
+.no-scroll {
+    overflow-y: hidden;
 }
