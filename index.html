@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css " />
+  <link rel="stylesheet" href="libs/mediabox.css">
+  <link rel="stylesheet" href="css/main.css " />
   <title>Loft House</title>
 </head>
 
@@ -132,7 +133,8 @@
             <input type="text" class="form__input" placeholder="Ваше имя" autocomplete>
             <input type="tel" class="form__input" placeholder="Ваш телефон" autocomplete>
 
-            <p class="form__privacy form__privacy--bottom">*Мы никому не передаем ваши данные. <br> И не сохраняем ваш номер в базу.
+            <p class="form__privacy form__privacy--bottom">Мы никому не передаем ваши данные. <br> И не сохраняем ваш
+              номер в базу.
             </p>
 
             <button type="submit" class="form__btn">Посмотреть район</button>
@@ -145,9 +147,9 @@
     <section class="video none1">
       <div class="container">
         <h2 class="visually-hidden">Видео про ЖК "Loft House"</h2>
-        <a class="video__link" href="http://youtube.com/watch?v=bhJNL9JUsnY">
-          <img src="./img/video/play-button.svg" alt="" class="video__icon">
-          <img src="./img/video/cover.jpg" alt="" class="video__img">
+        <a class="video__link mediabox" href="http://youtube.com/watch?v=bhJNL9JUsnY">
+          <img src="./img/video/play-button.svg" alt="" class="video__icon mediabox">
+          <img src="./img/video/cover.jpg" alt="" class="video__img mediabox">
         </a>
       </div>
     </section>
@@ -171,7 +173,7 @@
         <form class="feedback__form form">
 
           <p class="form__privacy form__privacy--bottom">
-            *Мы никому не передаем ваши данные.
+            Мы никому не передаем ваши данные.
             <br> И не сохраняем ваш номер в базу.
           </p>
 
@@ -234,6 +236,13 @@
       </div>
     </div>
   </footer>
+
+  <script src="libs/inputmask.js"></script>
+  <script src="libs/fslightbox.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=8409b246-2f17-4a64-a8a7-c43d5eb93d35&lang=ru_RU"
+    type="text/javascript">
+    </script>
+  <script src="libs/mediabox.js"></script>
 
   <script src="./js/main.js"></script>
 

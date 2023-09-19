@@ -685,6 +685,38 @@ a:hover {
   filter: saturate(1.5);
 }
 
+[class*=copyrights-pane] {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.map:hover [class*=copyrights-pane] {
+  opacity: 1;
+}
+
+[class*=ground-pane] {
+  filter: saturate(60%);
+  transition: filter 0.2s ease-in;
+}
+
+.map:hover [class*=ground-pane] {
+  filter: saturate(110%);
+}
+
+[class*=balloon__layout] {
+  border-radius: 10px;
+}
+
+[class*=balloon__content] {
+  padding: 10px 5px 1px 10px !important;
+}
+
+[class*=balloon] {
+  box-shadow: none !important;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 11px !important;
+}
+
 .section-map {
   padding: 180px 0;
   position: relative;
