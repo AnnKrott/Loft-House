@@ -1,5 +1,7 @@
 # Макет LoftHouse, ВебКадеми
 
+Предпросмотр на гитхаб пейджиз: https://annkrott.github.io/LoftHouse__Tutorial-based_project/
+
 ## Заметки по проекту
 
 ### Новые для меня технологии
